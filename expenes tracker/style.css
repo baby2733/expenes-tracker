@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.main{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+   text-align: center;
+    color: green;
+}
+
+.box{
+  
+    display: flex;
+    justify-content: center;
+    margin: 10px ;
+}
+
+.text {
+    margin: 5px;
+}
+
+.put{
+ 
+    height: 20px;
+    width: 250px;
+}
+
+#submit{
+
+    height: 25px;
+    width: 300px;
+    color:black;
+    text-align: center;
+    background-color: green;
+    align-items: center;
+    border-radius: 50px;
+    cursor:grab;
+}
+
+#submit:hover{
+    transform: scale(1.2);
+}
+
+
+
+.main-table{
+    border-collapse: collapse;
+    border: solid black;
+    width: 900px;
+    box-shadow: 0px 30px 20px 5px rgba(0, 128, 0, 0.397);
+
+
+    
+}
+.main-table thead tr,thead td
+{
+    border: solid rgb(0, 0, 0);
+}
+.main-table thead, thead td{
+    background-color: rgba(0, 128, 0, 0.397);
+    text-align: center;
+
+}
+
+.main-table tbody tr, tbody td{
+    border: solid 1px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.164);
+
+}
+
+
+.main-table tfoot tr{
+   background-color: rgba(0, 128, 0, 0.397);
+}
+
+#x-button{
+    position: absolute;
+    background-image: url("x.png");
+    background-size: cover;
+    width: 20px;
+    margin-left: 140px;
+    margin-top: 0px;
+}
+
+#x-button:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
